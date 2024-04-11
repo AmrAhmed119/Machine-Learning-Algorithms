@@ -32,14 +32,8 @@ In this assignment, we'll Perform face recognition 🎭 using the ORL dataset, c
 
 In this assignment, we'll delve into the exciting domain of  daily and sports activity  detection using motion sensor data 🏃‍♂️🏋️‍♂️. The assignment entails:
 
-1. **Download Dataset and Understand the Format**: We have 19 activities performed by 8 subjects over 5 minutes. The dataset is divided into 5-second segments, resulting in a total of 9120 data points, to get the label vector of those points either:
-- Perform PCA or LDA on the 125x45 flattened vector and reduce it into 45.
-- Computer the mean for each column results in mean vector of size 45.
-
+1. **Download Dataset and Understand the Format**: We have 19 activities and for each data point we have 125x45 label vector and to reduce it we either perform PCA, LCA or computer the mean for each column.   
 2. **Clustering Using K-Means**: Implement K-Means clustering algorithm and apply it to segment the activity data.
-
 3. **Normalized Cut**: Implement the Normalized Cut algorithm to cluster the activity data into 19 clusters and compare results with K-Means.
-
 4. **Evaluation**: Assess the model's performance using metrics such as precision, recall, F1 score, and conditional entropy.
-
 5. **New Clustering Algorithm - DBscan**: We've implemented DBscan and compared it with K-Means and Normalized Cut.
